@@ -1,0 +1,137 @@
+2022-12-11 08:29:50,261 #################################################
+2022-12-11 08:29:50,261 ############## API Server Started ###############
+2022-12-11 08:29:50,261 #################################################
+2022-12-11 08:29:50,262 Root Path: /home/eic/Downloads/vat_validation/vat_validation/swagger_server
+2022-12-11 08:29:50,262 Specification directory: /home/eic/Downloads/vat_validation/vat_validation/swagger_server/swagger
+2022-12-11 08:29:50,262 Setting error handlers
+2022-12-11 08:29:50,262 Loading specification: /home/eic/Downloads/vat_validation/vat_validation/swagger_server/swagger/swagger.yaml
+2022-12-11 08:29:50,272 Read specification
+2022-12-11 08:29:50,272 Options Loaded
+2022-12-11 08:29:50,272 Creating API blueprint: /v1
+2022-12-11 08:29:50,272 Security Definitions: {}
+2022-12-11 08:29:50,272 Validate Responses: False
+2022-12-11 08:29:50,272 Strict Request Validation: False
+2022-12-11 08:29:50,272 Pythonic params: True
+2022-12-11 08:29:50,272 pass_context_arg_name: None
+2022-12-11 08:29:50,272 Adding spec json: /v1//openapi.json
+2022-12-11 08:29:50,272 Adding spec yaml: /v1//openapi.yaml
+2022-12-11 08:29:50,272 Adding swagger-ui: /v1/ui/
+2022-12-11 08:29:50,272 Adding /v1/vat/{vat_number}...
+2022-12-11 08:29:50,273 consumes: ['application/json']
+2022-12-11 08:29:50,273 produces: ['application/json']
+2022-12-11 08:29:50,273 ... Adding GET -> swagger_server.controllers.vat_controller.vat_vat_number_get
+2022-12-11 08:29:50,273 ... Produces: ['application/json']
+2022-12-11 08:29:50,273 ... Produces json
+2022-12-11 08:29:50,273 ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7f364c4e6f70>)
+2022-12-11 08:29:50,273 ... Security: None
+2022-12-11 08:29:50,273 ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7f364c555a60>)
+2022-12-11 08:29:50,276 Starting flask HTTP server..
+2022-12-11 08:29:50,279 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.8:8080
+2022-12-11 08:29:50,279 [33mPress CTRL+C to quit[0m
+2022-12-11 08:29:50,281  * Restarting with stat
+2022-12-11 08:29:50,499 #################################################
+2022-12-11 08:29:50,499 ############## API Server Started ###############
+2022-12-11 08:29:50,499 #################################################
+2022-12-11 08:29:50,500 Root Path: /home/eic/Downloads/vat_validation/vat_validation/swagger_server
+2022-12-11 08:29:50,500 Specification directory: /home/eic/Downloads/vat_validation/vat_validation/swagger_server/swagger
+2022-12-11 08:29:50,500 Setting error handlers
+2022-12-11 08:29:50,500 Loading specification: /home/eic/Downloads/vat_validation/vat_validation/swagger_server/swagger/swagger.yaml
+2022-12-11 08:29:50,510 Read specification
+2022-12-11 08:29:50,510 Options Loaded
+2022-12-11 08:29:50,510 Creating API blueprint: /v1
+2022-12-11 08:29:50,510 Security Definitions: {}
+2022-12-11 08:29:50,510 Validate Responses: False
+2022-12-11 08:29:50,510 Strict Request Validation: False
+2022-12-11 08:29:50,510 Pythonic params: True
+2022-12-11 08:29:50,510 pass_context_arg_name: None
+2022-12-11 08:29:50,510 Adding spec json: /v1//openapi.json
+2022-12-11 08:29:50,510 Adding spec yaml: /v1//openapi.yaml
+2022-12-11 08:29:50,510 Adding swagger-ui: /v1/ui/
+2022-12-11 08:29:50,510 Adding /v1/vat/{vat_number}...
+2022-12-11 08:29:50,511 consumes: ['application/json']
+2022-12-11 08:29:50,511 produces: ['application/json']
+2022-12-11 08:29:50,511 ... Adding GET -> swagger_server.controllers.vat_controller.vat_vat_number_get
+2022-12-11 08:29:50,511 ... Produces: ['application/json']
+2022-12-11 08:29:50,511 ... Produces json
+2022-12-11 08:29:50,511 ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fbbd8725f70>)
+2022-12-11 08:29:50,511 ... Security: None
+2022-12-11 08:29:50,511 ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fbbd8792a60>)
+2022-12-11 08:29:50,516 Starting flask HTTP server..
+2022-12-11 08:29:50,519  * Debugger is active!
+2022-12-11 08:29:50,519  * Debugger PIN: 893-092-364
+2022-12-11 08:30:07,883 Getting data and status code
+2022-12-11 08:30:07,883 http://localhost:8080/v1/vat/Harshil validating parameters...
+2022-12-11 08:30:07,883 Function Arguments: ['vat_number']
+2022-12-11 08:30:07,884 Vat Number:Harshil
+2022-12-11 08:30:07,889 Starting new HTTPS connection (1): api.vatcomply.com:443
+2022-12-11 08:30:09,730 https://api.vatcomply.com:443 "GET /vat?vat_number=Harshil HTTP/1.1" 200 25
+2022-12-11 08:30:09,734 API Response Code:200
+2022-12-11 08:30:09,734 API Response:{"error":"INVALID_INPUT"}
+2022-12-11 08:30:09,735 Getting data and status code
+2022-12-11 08:30:09,735 Got framework response
+2022-12-11 08:30:09,736 127.0.0.1 - - [11/Dec/2022 08:30:09] "GET /v1/vat/Harshil HTTP/1.1" 200 -
+2022-12-11 08:32:17,945  * Detected change in '/home/eic/Downloads/vat_validation/vat_validation/swagger_server/__main__.py', reloading
+2022-12-11 08:32:18,037  * Restarting with stat
+2022-12-11 08:32:18,359 #################################################
+2022-12-11 08:32:18,359 ############## API Server Started ###############
+2022-12-11 08:32:18,359 #################################################
+2022-12-11 08:32:18,360 Root Path: /home/eic/Downloads/vat_validation/vat_validation/swagger_server
+2022-12-11 08:32:18,360 Specification directory: /home/eic/Downloads/vat_validation/vat_validation/swagger_server/swagger
+2022-12-11 08:32:18,360 Setting error handlers
+2022-12-11 08:32:18,360 Loading specification: /home/eic/Downloads/vat_validation/vat_validation/swagger_server/swagger/swagger.yaml
+2022-12-11 08:32:18,369 Read specification
+2022-12-11 08:32:18,370 Options Loaded
+2022-12-11 08:32:18,370 Creating API blueprint: /v1
+2022-12-11 08:32:18,370 Security Definitions: {}
+2022-12-11 08:32:18,370 Validate Responses: False
+2022-12-11 08:32:18,370 Strict Request Validation: False
+2022-12-11 08:32:18,370 Pythonic params: True
+2022-12-11 08:32:18,370 pass_context_arg_name: None
+2022-12-11 08:32:18,370 Adding spec json: /v1//openapi.json
+2022-12-11 08:32:18,370 Adding spec yaml: /v1//openapi.yaml
+2022-12-11 08:32:18,370 Adding swagger-ui: /v1/ui/
+2022-12-11 08:32:18,370 Adding /v1/vat/{vat_number}...
+2022-12-11 08:32:18,370 consumes: ['application/json']
+2022-12-11 08:32:18,370 produces: ['application/json']
+2022-12-11 08:32:18,370 ... Adding GET -> swagger_server.controllers.vat_controller.vat_vat_number_get
+2022-12-11 08:32:18,370 ... Produces: ['application/json']
+2022-12-11 08:32:18,370 ... Produces json
+2022-12-11 08:32:18,370 ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fca9c5b6b80>)
+2022-12-11 08:32:18,371 ... Security: None
+2022-12-11 08:32:18,371 ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fca9c63da60>)
+2022-12-11 08:32:18,373 Starting flask HTTP server..
+2022-12-11 08:32:18,376  * Debugger is active!
+2022-12-11 08:32:18,377  * Debugger PIN: 893-092-364
+2022-12-11 08:33:19,996  * Detected change in '/home/eic/Downloads/vat_validation/vat_validation/swagger_server/__main__.py', reloading
+2022-12-11 08:33:20,047  * Restarting with stat
+2022-12-11 08:33:20,321 #################################################
+2022-12-11 08:33:20,322 ############## API Server Started ###############
+2022-12-11 08:33:20,322 #################################################
+2022-12-11 08:33:20,323 Root Path: /home/eic/Downloads/vat_validation/vat_validation/swagger_server
+2022-12-11 08:33:20,323 Specification directory: /home/eic/Downloads/vat_validation/vat_validation/swagger_server/swagger
+2022-12-11 08:33:20,323 Setting error handlers
+2022-12-11 08:33:20,323 Loading specification: /home/eic/Downloads/vat_validation/vat_validation/swagger_server/swagger/swagger.yaml
+2022-12-11 08:33:20,337 Read specification
+2022-12-11 08:33:20,337 Options Loaded
+2022-12-11 08:33:20,337 Creating API blueprint: /v1
+2022-12-11 08:33:20,337 Security Definitions: {}
+2022-12-11 08:33:20,337 Validate Responses: False
+2022-12-11 08:33:20,337 Strict Request Validation: False
+2022-12-11 08:33:20,337 Pythonic params: True
+2022-12-11 08:33:20,337 pass_context_arg_name: None
+2022-12-11 08:33:20,337 Adding spec json: /v1//openapi.json
+2022-12-11 08:33:20,337 Adding spec yaml: /v1//openapi.yaml
+2022-12-11 08:33:20,337 Adding swagger-ui: /v1/ui/
+2022-12-11 08:33:20,337 Adding /v1/vat/{vat_number}...
+2022-12-11 08:33:20,338 consumes: ['application/json']
+2022-12-11 08:33:20,338 produces: ['application/json']
+2022-12-11 08:33:20,338 ... Adding GET -> swagger_server.controllers.vat_controller.vat_vat_number_get
+2022-12-11 08:33:20,338 ... Produces: ['application/json']
+2022-12-11 08:33:20,338 ... Produces json
+2022-12-11 08:33:20,338 ... Adding produces decorator (<function AbstractOperation.__content_type_decorator.<locals>.<lambda> at 0x7fe6842ebb80>)
+2022-12-11 08:33:20,338 ... Security: None
+2022-12-11 08:33:20,338 ... Adding security decorator (<function AbstractSecurityHandlerFactory.security_passthrough at 0x7fe684371a60>)
+2022-12-11 08:33:20,341 Starting flask HTTP server..

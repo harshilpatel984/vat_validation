@@ -1,0 +1,35 @@
+openapi: 3.0.3
+info:
+  title: VAT Validation
+  description: This is a simple api to verify whether VAT number is valid or not.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+- url: http://localhost/v1
+tags:
+- name: vat
+  description: VAT Registration Number Validation
+paths:
+  /vat/{vat_number}:
+    get:
+      tags:
+      - vat
+      summary: validate vat number
+      operationId: vat_vat_number_get
+      parameters:
+      - name: vat_number
+        in: path
+        description: vat number which needs to be validate
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: successful operation
+      x-openapi-router-controller: swagger_server.controllers.vat_controller
+components: {}
+
